@@ -15,7 +15,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        guard let window = self.window else { fatalError("No Window") }
+        
+        UINavigationBar.appearance().barTintColor = #colorLiteral(red: 0.1647058824, green: 1, blue: 1, alpha: 1)
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSAttributedString.Key.foregroundColor: UIColor.white,
+            NSAttributedString.Key.font: UIFont(name: "Marker Felt", size: 30)!
+        ]
+        UINavigationBar.appearance().isTranslucent = false
+        
+        let vc = HomeViewController()
+        let nav = UINavigationController(rootViewController: vc)
+        window.rootViewController = nav
+
+        window.makeKeyAndVisible()
+        
         return true
     }
 

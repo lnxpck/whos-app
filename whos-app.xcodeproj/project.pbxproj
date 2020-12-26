@@ -3,25 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B72BE1F0FB7651112E24D70C /* Pods_whos_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A1CF1EF79951E84D3BB062 /* Pods_whos_app.framework */; };
+		CD4F4A44236217DF009F9DC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4F4A42236217DF009F9DC9 /* MapViewController.swift */; };
+		CD4F4A45236217DF009F9DC9 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4F4A43236217DF009F9DC9 /* MapViewController.xib */; };
 		CD59BE542357B7E300289088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE532357B7E300289088 /* AppDelegate.swift */; };
-		CD59BE562357B7E300289088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE552357B7E300289088 /* ViewController.swift */; };
-		CD59BE592357B7E300289088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD59BE572357B7E300289088 /* Main.storyboard */; };
 		CD59BE5B2357B7E700289088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD59BE5A2357B7E700289088 /* Assets.xcassets */; };
 		CD59BE5E2357B7E700289088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD59BE5C2357B7E700289088 /* LaunchScreen.storyboard */; };
+		CD59BE672357B8C100289088 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE652357B8C100289088 /* HomeViewController.swift */; };
+		CD59BE682357B8C100289088 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD59BE662357B8C100289088 /* HomeViewController.xib */; };
+		CD59BE6D2357C1AF00289088 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE6B2357C1AF00289088 /* HomeTableViewCell.swift */; };
+		CD59BE6E2357C1AF00289088 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD59BE6C2357C1AF00289088 /* HomeTableViewCell.xib */; };
+		CD59BE702357C73100289088 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE6F2357C73100289088 /* Users.swift */; };
+		CD59BE752357CB6800289088 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE742357CB6800289088 /* Provider.swift */; };
+		CD59BE782357CBBD00289088 /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE772357CBBD00289088 /* UserNetwork.swift */; };
+		CD59BE7B2357CE6800289088 /* get_user.json in Resources */ = {isa = PBXBuildFile; fileRef = CD59BE7A2357CE6800289088 /* get_user.json */; };
+		CD59BE7E2357CF9A00289088 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59BE7D2357CF9A00289088 /* UserRepository.swift */; };
+		CD7A10DF235C6C1B00B18004 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7A10DD235C6C1B00B18004 /* UserDetailsViewController.swift */; };
+		CD7A10E0235C6C1B00B18004 /* UserDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7A10DE235C6C1B00B18004 /* UserDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F65C2FF709EEADF38EC3506 /* Pods-whos-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whos-app.release.xcconfig"; path = "Target Support Files/Pods-whos-app/Pods-whos-app.release.xcconfig"; sourceTree = "<group>"; };
+		6569BD0023B5F321F61B95E5 /* Pods-whos-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whos-app.debug.xcconfig"; path = "Target Support Files/Pods-whos-app/Pods-whos-app.debug.xcconfig"; sourceTree = "<group>"; };
+		73A1CF1EF79951E84D3BB062 /* Pods_whos_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whos_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4F4A42236217DF009F9DC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CD4F4A43236217DF009F9DC9 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		CD59BE502357B7E300289088 /* whos-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whos-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD59BE532357B7E300289088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD59BE552357B7E300289088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD59BE582357B7E300289088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD59BE5A2357B7E700289088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD59BE5D2357B7E700289088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD59BE5F2357B7E700289088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD59BE652357B8C100289088 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD59BE662357B8C100289088 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		CD59BE6B2357C1AF00289088 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		CD59BE6C2357C1AF00289088 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		CD59BE6F2357C73100289088 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		CD59BE742357CB6800289088 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		CD59BE772357CBBD00289088 /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetwork.swift; sourceTree = "<group>"; };
+		CD59BE7A2357CE6800289088 /* get_user.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = get_user.json; sourceTree = "<group>"; };
+		CD59BE7D2357CF9A00289088 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		CD7A10DD235C6C1B00B18004 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		CD7A10DE235C6C1B00B18004 /* UserDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72BE1F0FB7651112E24D70C /* Pods_whos_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DEC75FF05BCC68221DFEDCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6569BD0023B5F321F61B95E5 /* Pods-whos-app.debug.xcconfig */,
+				0F65C2FF709EEADF38EC3506 /* Pods-whos-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E098BA556A87EDC238DA081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A1CF1EF79951E84D3BB062 /* Pods_whos_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD59BE472357B7E300289088 = {
 			isa = PBXGroup;
 			children = (
 				CD59BE522357B7E300289088 /* whos-app */,
 				CD59BE512357B7E300289088 /* Products */,
+				4DEC75FF05BCC68221DFEDCE /* Pods */,
+				6E098BA556A87EDC238DA081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,65 @@
 		CD59BE522357B7E300289088 /* whos-app */ = {
 			isa = PBXGroup;
 			children = (
+				CD59BE722357CB3F00289088 /* Data */,
 				CD59BE532357B7E300289088 /* AppDelegate.swift */,
-				CD59BE552357B7E300289088 /* ViewController.swift */,
-				CD59BE572357B7E300289088 /* Main.storyboard */,
 				CD59BE5A2357B7E700289088 /* Assets.xcassets */,
 				CD59BE5C2357B7E700289088 /* LaunchScreen.storyboard */,
 				CD59BE5F2357B7E700289088 /* Info.plist */,
+				CD59BE652357B8C100289088 /* HomeViewController.swift */,
+				CD59BE662357B8C100289088 /* HomeViewController.xib */,
+				CD59BE6B2357C1AF00289088 /* HomeTableViewCell.swift */,
+				CD59BE6C2357C1AF00289088 /* HomeTableViewCell.xib */,
+				CD7A10DD235C6C1B00B18004 /* UserDetailsViewController.swift */,
+				CD7A10DE235C6C1B00B18004 /* UserDetailsViewController.xib */,
+				CD4F4A42236217DF009F9DC9 /* MapViewController.swift */,
+				CD4F4A43236217DF009F9DC9 /* MapViewController.xib */,
 			);
 			path = "whos-app";
+			sourceTree = "<group>";
+		};
+		CD59BE722357CB3F00289088 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CD59BE742357CB6800289088 /* Provider.swift */,
+				CD59BE792357CE4E00289088 /* StubbedResponses */,
+				CD59BE762357CBB000289088 /* Networks */,
+				CD59BE732357CB5000289088 /* Models */,
+				CD59BE7C2357CF7C00289088 /* Repositories */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CD59BE732357CB5000289088 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD59BE6F2357C73100289088 /* Users.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD59BE762357CBB000289088 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				CD59BE772357CBBD00289088 /* UserNetwork.swift */,
+			);
+			name = Networks;
+			sourceTree = "<group>";
+		};
+		CD59BE792357CE4E00289088 /* StubbedResponses */ = {
+			isa = PBXGroup;
+			children = (
+				CD59BE7A2357CE6800289088 /* get_user.json */,
+			);
+			name = StubbedResponses;
+			sourceTree = "<group>";
+		};
+		CD59BE7C2357CF7C00289088 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				CD59BE7D2357CF9A00289088 /* UserRepository.swift */,
+			);
+			name = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD59BE622357B7E700289088 /* Build configuration list for PBXNativeTarget "whos-app" */;
 			buildPhases = (
+				2B019F8902A847B4B5C648A8 /* [CP] Check Pods Manifest.lock */,
 				CD59BE4C2357B7E300289088 /* Sources */,
 				CD59BE4D2357B7E300289088 /* Frameworks */,
 				CD59BE4E2357B7E300289088 /* Resources */,
+				696372F25E79633ECCFA87DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +222,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD59BE5E2357B7E700289088 /* LaunchScreen.storyboard in Resources */,
+				CD7A10E0235C6C1B00B18004 /* UserDetailsViewController.xib in Resources */,
+				CD59BE7B2357CE6800289088 /* get_user.json in Resources */,
 				CD59BE5B2357B7E700289088 /* Assets.xcassets in Resources */,
-				CD59BE592357B7E300289088 /* Main.storyboard in Resources */,
+				CD4F4A45236217DF009F9DC9 /* MapViewController.xib in Resources */,
+				CD59BE6E2357C1AF00289088 /* HomeTableViewCell.xib in Resources */,
+				CD59BE682357B8C100289088 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B019F8902A847B4B5C648A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whos-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		696372F25E79633ECCFA87DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whos-app/Pods-whos-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whos-app/Pods-whos-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-whos-app/Pods-whos-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD59BE4C2357B7E300289088 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD59BE562357B7E300289088 /* ViewController.swift in Sources */,
+				CD59BE702357C73100289088 /* Users.swift in Sources */,
+				CD7A10DF235C6C1B00B18004 /* UserDetailsViewController.swift in Sources */,
+				CD59BE6D2357C1AF00289088 /* HomeTableViewCell.swift in Sources */,
 				CD59BE542357B7E300289088 /* AppDelegate.swift in Sources */,
+				CD4F4A44236217DF009F9DC9 /* MapViewController.swift in Sources */,
+				CD59BE7E2357CF9A00289088 /* UserRepository.swift in Sources */,
+				CD59BE752357CB6800289088 /* Provider.swift in Sources */,
+				CD59BE782357CBBD00289088 /* UserNetwork.swift in Sources */,
+				CD59BE672357B8C100289088 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD59BE572357B7E300289088 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD59BE582357B7E300289088 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD59BE5C2357B7E700289088 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,10 +424,11 @@
 		};
 		CD59BE632357B7E700289088 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6569BD0023B5F321F61B95E5 /* Pods-whos-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JZA4978AHM;
+				DEVELOPMENT_TEAM = 277VDKN6RV;
 				INFOPLIST_FILE = "whos-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +443,11 @@
 		};
 		CD59BE642357B7E700289088 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F65C2FF709EEADF38EC3506 /* Pods-whos-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JZA4978AHM;
+				DEVELOPMENT_TEAM = 277VDKN6RV;
 				INFOPLIST_FILE = "whos-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
